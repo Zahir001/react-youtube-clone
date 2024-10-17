@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.ytd-searchBox{
+  border: 1px solid #252525;
+  border-radius: 40px 0 0 40px;
+  height: 40px;
+  border-right: none;
+  width: 100%;
+  padding: 0 4px 0 16px;
+}
+.ytd-SearchBtn{
+  height: 40px;
+  border-radius: 0 40px 40px 0;
+  background-color: #F8F8F8;
+  border: 1px solid #252525;
+  width: 64px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.yt-searchicon{
+  width: 24px;
+  height: 24px;
+}
+.yt-searchContainer{
+  flex: 0 1 562px;
+}
+.yt-explore{
+  border-top: 1px solid gainsboro;
+}
